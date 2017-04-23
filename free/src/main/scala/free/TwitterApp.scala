@@ -5,9 +5,10 @@ import cats.{Id, ~>}
 import twitter.TwitterClient._
 import twitter._
 import misc.PrintUtils._
-
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+import misc.JvmClientContext.context
 
 sealed trait Interact[A]
 case class Ask(prompt: String) extends Interact[String]
