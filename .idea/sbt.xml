@@ -11,6 +11,10 @@
             <option value="$PROJECT_DIR$/free" />
             <option value="$PROJECT_DIR$/free/project" />
             <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/twitter-client" />
+            <option value="$PROJECT_DIR$/twitter-client/project" />
+            <option value="$PROJECT_DIR$/twitter-server" />
+            <option value="$PROJECT_DIR$/twitter-server/project" />
           </set>
         </option>
         <option name="sbtVersion" value="0.13.15" />
