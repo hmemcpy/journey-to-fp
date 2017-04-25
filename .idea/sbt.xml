@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/free" />
             <option value="$PROJECT_DIR$/free/project" />
             <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/scala-js" />
+            <option value="$PROJECT_DIR$/scala-js/project" />
             <option value="$PROJECT_DIR$/twitter-client" />
             <option value="$PROJECT_DIR$/twitter-client/project" />
             <option value="$PROJECT_DIR$/twitter-server" />

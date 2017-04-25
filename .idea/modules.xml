@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/free-build.iml" filepath="$PROJECT_DIR$/.idea/modules/free-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-js.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-js-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-js-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/twitter-client.iml" filepath="$PROJECT_DIR$/.idea/modules/twitter-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/twitter-client-build.iml" filepath="$PROJECT_DIR$/.idea/modules/twitter-client-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/twitter-server.iml" filepath="$PROJECT_DIR$/.idea/modules/twitter-server.iml" />

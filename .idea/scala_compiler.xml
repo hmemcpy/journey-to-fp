@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="SBT 1" modules="journey-to-fp,root,twitter-server" />
-    <profile name="SBT 2" modules="free,twitter-client">
+    <profile name="SBT 2" modules="free,scala-js,twitter-client">
       <plugins>
         <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.1/jars/scalajs-compiler_2.12.1-0.6.15.jar" />
       </plugins>

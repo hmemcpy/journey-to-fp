@@ -5,7 +5,7 @@ scalaVersion in ThisBuild := "2.12.1"
 addCommandAlias("run-twitter", "; project twitter-server ; run")
 
 lazy val root = (project in file("."))
-  .aggregate(free, `twitter-client`, `twitter-server`)
+  .aggregate(free, `twitter-client`, `twitter-server`, `scala-js`)
 
 lazy val free = project
   .dependsOn(`twitter-client`)
@@ -43,3 +43,17 @@ lazy val `twitter-server` = project
       )
     }
   )
+
+lazy val `scala-js` = project
+  .dependsOn(`twitter-client`, free)
+  .settings(
+    libraryDependencies ++= Seq(
+      "org.scala-js" %%% "scalajs-dom" % "0.9.1",
+      "com.lihaoyi"  %%% "scalatags"   % "0.6.3",
+
+      "io.circe" %%% "circe-core"    % "0.7.1",
+      "io.circe" %%% "circe-generic" % "0.7.1",
+      "io.circe" %%% "circe-parser"  % "0.7.1"
+    ),
+    scalaJSUseMainModuleInitializer := true
+  ).enablePlugins(ScalaJSPlugin)
