@@ -1,5 +1,8 @@
-# journey-to-fp
+# Journey to Functional Programming
 Slides and code from the talk "Journey to Functional Programming", given at Wix Engineering Conference
+
+The [video](https://www.youtube.com/watch?v=g1EvM4CbUvM) is now available, courtesy of [Wix Engineering Tech Talks](https://www.youtube.com/channel/UCFXVPytLSv9ojAMgBIDh_qA)!  
+[![Journey to Functional Programming](https://img.youtube.com/vi/g1EvM4CbUvM/0.jpg)](https://www.youtube.com/watch?v=g1EvM4CbUvM)
 
 This talk is inspired by (and borrows from) a whole lot of great talks by the following people:
 
